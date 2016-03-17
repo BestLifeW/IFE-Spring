@@ -63,24 +63,60 @@ header li::before {
 	font-family: 黑体;
 }
 
-.article1 h2 {
+.article h2 {
 	margin: 10px 0;
 	font-size: 20px;
 }
 
-.article1 h3 {
+.article h3 {
 	margin: 10px 0;
 	font-size: 15px;
 	color: #6b6b6b;
 }
 
-.article1 p {
+.article p {
 	text-indent: 2em;
 	font-size: 15px;
 	margin: 10px 0;
 }
 
-.article1 section {
+.article section {
 	font-size: 10px;
 	color: #909090;
+}
+
+.article li {
+	list-style-type: none;
+	margin:5px 0 5px 20px;
+}
+
+/*imgBox-list*/
+
+h2 {
+	font-size: 25px;
+}
+
+.imgbox {
+	width: 120px;
+	height: 125px;
+	border:1px solid #eee;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+
+.imgbox p {
+	font-size: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.imgbox img {
+	width: 100px;
+	height: 80px;
+	margin: 0 10px 10px 10px; 
+}
+
+.imgList {
+	margin-left: 40px;
 }
