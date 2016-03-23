@@ -19,7 +19,7 @@
 	</header>
 
 
-	<article class="article box">
+	<article class="box">
 		<h2>文章一级标题</h2>
 		<h3>文章二级标题</h3>
 		<section>
@@ -35,7 +35,7 @@
 		所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。<a href="http://ife.baidu.com">百度前端技术学院</a></p>
 	</article>
 	
-	<article class="article box">
+	<article class="box">
 		<h2>另一篇文章一级标题</h2>
 		<h3>文章二级标题</h3>
 		<section>
@@ -86,15 +86,19 @@
 	<article class="box">
 		<h2>最后一篇文章一级标题</h2>
 		<h3>文章二级标题</h3>
-		<span>文章作者</span><span>文章发表时间</span>
+		<section>
+			<span>文章作者</span>
+		 	<span>文章发表时间</span>
+		</section>
+		
 		<ol>
 			<li>排名1</li>
 			<li>排名2</li>
 			<li>排名3</li>
 		</ol>
-		<span>下面是一个表格，给表格加了border</span>
-		<table border="1">
 
+		<table border="1">
+		<caption>下面是一个表格，给表格加了border</caption>
 			<tr>
 			<th>表头</th>
 			<th>表头</th>
@@ -127,35 +131,64 @@
 		</table>
 	</article>
 
-	<div class="box">
+	<div class="box ceLan">
 		<h2>侧栏标题</h2>
 		<div>
-			<h3>侧栏注册窗口标题</h3>
 			<form>
-				<label>请输入邮箱地址</label>
-				<input type="email"></input><br/>
-				<label>邮箱地址请按照要求格式输入</label><br/>
-				<label>请输入密码</label>
-				<input type="password"></input>
-				<label>请重复输入密码</label>
-				<input type="password"></input><br/>
-				<label>密码为6-16位英文数字</label><br/>
-				<label>性别</label><input type = "radio" name = "sex">男</input>
-				<input type = "radio" name = "sex">女</input>
-				城市:<select>
+			<table class="tableForm">
+				<tr>
+					<td>请输入邮箱地址</td>
+					<td><input type="email"></input></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>邮箱地址请按照要求格式输入</td>
+				</tr>
+				<tr>
+					<td>请输入密码</td>
+					<td><input type="password"></input></td>
+				</tr>
+				<tr>
+					<td>请重复输入密码</td>
+					<td><input type="password"></input></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>密码为6-16位英文数字</td>
+				</tr>
+				<tr>
+					<td>性别</td>
+					<td><input type = "radio" name = "sex">男</input><input type = "radio" name = "sex">女</input></td>
+				</tr>
+				<tr>
+					<td>城市:</td>
+					<td>
+					<select>
 					<option value="">南京</option>
 					<option value="">西安</option>
-				</select>
-				爱好:<input type="checkbox">运动</input>
-				<input type="checkbox">电影</input>
-				<input type="checkbox">游戏</input>
-				个人描述:
-				<textarea rows="2" cols="10">
-					
-				</textarea>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>爱好:</td>
+					<td>
+					<input type="checkbox" name="sport" >运动</input>
+					<input type="checkbox" name="movie" >电影</input>
+					<input type="checkbox" name="game">游戏</input>
+					</td>
+				</tr>
+				<tr>
+					<td>个人描述:</td>
+					<td><textarea rows="2" cols="10"></textarea></td>
+				</tr>
+				</table>
+				<button type="submit" id="button">提交</button>
 			</form>
 		</div>
+	</div>	
+
+	<footer>
 		<p>版权所有 &copy</p>
-	</div>
+	</footer>
 </body>
 </html>

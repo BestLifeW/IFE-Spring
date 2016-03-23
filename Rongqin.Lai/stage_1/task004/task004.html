@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task004</title>
+	<style type="text/css">
+	.container {
+		width: 800px;
+		height: 750px;
+		border: 1px solid #ccc;
+		position: relative;	
+	}
+	.box {
+		width: 400px;
+		height: 200px;
+		background-color: #ccc;
+		position: absolute;
+		top:50%;
+		left: 50%;
+		overflow: hidden;
+		transform: translate(-50%,-50%);
+	}
+	.left,.right {
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		background-color: #fc0;
+	}
+	.left{
+		position: absolute;
+		left:-50px;
+		top:-50px;
+	}
+	.right {
+		position: absolute;
+		right: -50px;
+		bottom: -50px;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="box">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</div>
+</body>
+</html>
