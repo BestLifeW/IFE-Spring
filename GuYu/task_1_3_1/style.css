@@ -1,0 +1,48 @@
+*{
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+body{ 
+	height: 520px;
+	font-weight:bold;
+	background-color: #eee;
+	border: 1px solid #999;
+	margin: 15px;
+}
+.left{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	text-align: right;
+	font-size: 20px;
+	width: 200px;
+	height: 103px;
+	padding: 10px;
+}
+.left img{
+	padding: 11px;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.main{
+	line-height: 2em;
+	margin-top: 20px;
+	margin-left: 260px;
+	margin-right: 160px;	
+	height: 400px;
+	padding: 20px;
+}
+.right{
+	position: absolute;
+	width: 120px;
+	top:35px;
+	right: 35px;
+}
+.right img{
+	display: block;
+	padding: 20px;
+	width: 80px;
+	height: 80px;
+}	
