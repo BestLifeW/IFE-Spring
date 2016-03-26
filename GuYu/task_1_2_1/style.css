@@ -1,0 +1,226 @@
+*{
+	margin:0px;
+	padding: 0px;
+	background-color: #f0f0f0;
+	font-family: "微软雅黑";
+}
+.top{
+	height: 60px;
+	background-color: #333;
+}
+.top ul{
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+	background-color: #333;
+	margin-left: 30px;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+}
+.top ul li{
+	display: inline;
+	padding-left: 18px;
+	background-color: #333;
+}
+.top a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #333;
+}
+.main{
+	margin-top:20px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+b{
+	background-color: #fff;
+}
+.main h2,.main h3,.main h5{
+	padding-top: 1em;
+	padding-left: 18px;
+	background-color: #fff;
+}
+.main img{
+	padding-top: 1em;
+	padding-left: 18px;
+	background-color: #fff;
+	width: 244px;
+}
+.main a,.table a{
+	color: blue;
+	background-color: #fff;
+}
+.main p{
+	padding-top: 1em;
+	padding-left: 18px;
+	background-color: #fff;
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+.main ul li{
+	background-color: #fff;
+	list-style: none;
+	padding-top: 0.8em;
+	padding-left: 38px;
+}
+.block{
+	margin-top:20px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+.block h2{
+	padding-top: 1em;
+	padding-left: 18px;
+	background-color: #fff;
+}
+.block img{
+	padding-top: 10px;
+	width: 122px;
+	background-color: #fff;
+}
+.block h5{
+	background-color: #fff;
+	margin-left: 30px;
+}
+.in{	
+	width: 125px;
+	height: 175px;
+	margin-top:15px; 
+	padding: 10px;
+	border: 2px solid #f3f3f3;
+	margin-left: 70px;
+	background-color: #fff;
+}
+.table{
+	margin-top:20px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+.table h2,.table h3,.table h5{
+	padding-top: 1em;
+	padding-left: 18px;
+	background-color: #fff;
+}
+.table ol{
+	background-color: #fff;
+	padding-left: 58px;
+}
+.table ol li{
+	background-color: #fff;
+	padding-top: 0.8em;
+}
+.table p{
+	padding-top: 1em;
+	text-indent: 1em;
+	background-color: #fff;
+	line-height: 1.5em;
+}
+table{
+	padding-left: 1em;
+	width: 1200px;
+}
+table,td{
+	background-color: #fff;
+}
+th{
+	color: #fff;
+	background-color: #000;
+	text-align: left;
+	padding-left: 2px;
+}
+.total td{
+	background-color: #A2A2A2;
+}
+.bottom{
+	margin-top:50px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+.bottom h3{
+	padding-top: 1em;
+	padding-left: 18px;
+	background-color: #fff;
+}
+form,input,select,textarea{
+	background-color: #fff;	
+}
+.wrap{
+	margin-top: 1em;
+	margin-left: 252px;
+	line-height: 33px;
+}
+.e_address{
+	margin-left: 5px;
+	background-color: #fff;		
+}
+.password{
+	margin-left:32px;
+	background-color: #fff;	
+}
+.password label,.describe label{
+	background-color: #fff;	
+	float: left;
+	padding-right: 10px;
+}
+label{
+	background-color: #fff;	
+}
+.password2{
+	margin-left: 5px;
+	background-color: #fff;	
+}
+
+._gender{
+	padding-left: 85px;
+	background-color: #fff;
+}
+._gender label{
+	background-color: #fff;
+	padding-right: 5px;	
+}
+.city{
+	padding-left: 85px;
+	background-color: #fff;
+}
+.city label{
+	padding-right:5px;
+}
+.hobby{
+	padding-left: 85px;
+	background-color: #fff;
+}
+.hobby label{
+	padding-right: 5px;
+}
+.describe{
+	margin-top: 1em;
+	margin-left:300px;
+	background-color: #fff;
+}
+
+textarea{
+	width:765px;
+	height: 100px;
+}
+#submit{
+	margin:15px auto;
+	display: block;
+	width: 1200px;
+	height: 35px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #2248dd;	
+}
+.copyright{
+	margin-top: 20px;
+	color: #fff;
+	height:70px;
+	line-height: 70px;
+	text-align: center;
+	background-color: #000;	
+}
+\ No newline at end of file
