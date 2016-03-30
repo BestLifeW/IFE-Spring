@@ -5,7 +5,9 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fo
 }
 
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    		box-sizing: border-box;
 }
 
 body, textarea, input, select, button {
@@ -14,6 +16,9 @@ body, textarea, input, select, button {
 
 a {
 	text-decoration: none;
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
 }
 
 ul {
