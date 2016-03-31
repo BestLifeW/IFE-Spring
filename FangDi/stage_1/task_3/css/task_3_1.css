@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    		box-sizing: border-box;
+}
+
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+	overflow: hidden;
+}
+
+.mainBox {
+	background: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 20px;
+	/*中间一栏设置为最小宽度为200px*/
+	min-width: calc(200px + 200px + 120px + 80px);
+}
+
+.rightBox, .leftBox, .middleBox {
+	background: #fff;
+	border: 1px solid #999;
+	padding: 20px;
+}
+
+.rightBox {
+	float: right;
+	width: 120px;
+}
+
+.leftBox {
+	float: left;
+	width: 200px;
+}
+
+.leftBox img {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.middleBox {
+	margin: 0 140px 0 220px;
+}
+
+.teamPic {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.teamPic li {
+	margin-bottom: 20px;
+}
+
+.teamPic li:last-child {
+	margin-bottom: 0;
+}
+
+.teamPic li img {
+	width: 80px;
+	height: 80px;
+}
