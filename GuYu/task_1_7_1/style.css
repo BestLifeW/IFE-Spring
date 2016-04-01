@@ -1,0 +1,389 @@
+body{
+	background-color: #fff;
+	padding:0px;
+	margin:0px;
+}
+[class*="mouse_"]{
+	font-size: 15px;
+	width: 64px;
+	height: 40px;	
+	float: left;
+	text-align: center;
+	line-height: 22px;
+	font-family: "黑体";
+	margin-right: 34px;
+	text-decoration: none;
+	display: block;
+}
+[class*="box"]{
+	display: block;
+	float: left;
+	width: 315px;
+	height: 247px;	
+}
+.head{
+	height:44px;
+	padding-left: 59px;
+	padding-top: 13px;
+}
+.logo{
+	float: left;
+}
+.head_right{
+	margin-left: 622px;
+}
+.mouse_on{
+	border-bottom: 4px solid #E44E4E;
+	color: #E44E4E;
+}
+.mouse_off{
+	color: #000;
+	opacity: 0.6;	
+}
+.word{
+	position: absolute;
+	top: 265px;
+	left: 115px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.style1{
+	font-size: 60px;
+	line-height: 93px;
+}
+.style2{
+	font-size: 21px;
+	line-height: 33px;
+	padding-left: 10px;
+}
+.style3{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color:#E44E4E;
+	width: 330px;
+	height: 62px;
+	margin-top: 62px;
+	margin-left: 11px;
+	text-align: center;
+	line-height: 62px;
+	font-size: 30px;
+}
+.style4{
+	font-size: 50px;
+	font-family: "微软雅黑";
+	opacity: 0.35;
+	text-align: center;
+}
+.style5{
+	position: absolute;
+	left: 500px;
+	top: 50px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.style6{
+	position: absolute;
+	left: 440px;
+	top: 110px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.city_wrap{
+	position: absolute;
+	top: 165px;
+	left: 120px;
+}
+.style7{
+	background-color:#fff;
+	color: #c4c4c4;
+	width: 224px;
+	height: 37px;
+	line-height: 37px;
+	padding-left: 10px;
+	float: left;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+.style8{
+	background-color:#E44E4E;
+	color: #fff;
+	width: 224px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-weight: bolder;
+	float: left;
+	margin-right: 30px;
+	font-size: 14px;
+	text-decoration: none;
+}
+.style9{
+	position: absolute;
+	right: 170px;
+	top: 162px;
+	font-size: 21px;
+	font-family:"黑体";
+}
+.style10{
+	position: absolute;
+	font-size: 12px;
+	line-height: 30px;
+	font-family: "黑体";
+	opacity:0.4;
+	top: 210px;
+	right: 75px;
+}
+.style11{
+	float:right;
+	display: block;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.style7 a:hover{
+	background-color:#B73838;
+	color: #fff;
+	background-image: url(dropdown.png);
+	background-repeat: no-repeat;
+	background-position: 8px 11px;
+}
+.style12{
+	display: block;
+	text-decoration: none;
+	background-color:  #eee;
+	padding-left: 29px;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	width: 205px;	
+	color: black;
+	margin-left: -10px;
+}
+.style13{
+	background-color: #fff;
+	padding: 11px 6px;
+	float: left;
+	margin-left: 37px;
+}
+.style14{
+	position: absolute;
+	display: block;
+	right: 155px;
+	top: 375px;
+	text-decoration: none;
+	color:#FA6B6B;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 6px 25px;
+	border:1px solid #FA6B6B;
+}
+.pic{
+	height: 250px;
+}
+.picture{
+	display: block;
+	float: left;
+	padding-left: 130px;
+	padding-top: 42px;
+}
+.message{
+	float: left;
+	height: 52px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-top: 93px;
+	opacity: 0.7;
+	border-right: 2px solid #d5d5d5;
+	margin-top: 127px;
+	margin-left: -90px;
+	padding-right: 70px;
+}
+.mid{
+	width: 1279px;
+	height: 362px;
+	background-color: #eee;
+}
+.book{
+	display: block;
+	margin-left: 580px;
+	padding-top: 90px;
+	padding-bottom: 35px;
+}
+.city{
+	width: 1279px;
+	height: 341px;	
+	position: relative;
+	background-color: #B73838;
+	background-image: url(box5-bg.png);
+}
+.huodong{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 115px;
+	padding-top: 101px;
+	height: 506px;
+	width: 1162px;
+	background-color: #f7f7f7;	
+}
+.wrap{
+	width: 1279px;
+	height: 1088px;
+	position: relative;
+}
+.wrap1{
+	height: 567px;
+	background-image: url(box7-pic.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+.css1{
+	color: #fff;
+	font-size: 48px;
+	font-family: "微软雅黑";
+	position: absolute;
+	left: 352px;
+	top: 122px;
+}
+.css2{
+	color: #fff;
+	font-size: 158px;
+	font-family: "微软雅黑";
+	position: absolute;
+	left: 237px;
+	top: 143px;
+}
+.css3{
+	color: #fff;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	position: absolute;
+	top: 344px;
+	left: 348px;
+}
+.css4{
+	color: #fff;
+	font-size: 22px;
+	font-family: "微软雅黑";	
+	position: absolute;
+	top: 387px;
+	left: 348px;
+}
+.css5{
+	position: absolute;
+	top: 165px;
+	text-align: center;
+	line-height: 30px;
+	left: 130px;
+}
+.css6{
+	position: absolute;
+	top: 165px;
+	text-align: center;
+	line-height: 30px;
+	left: 130px;
+}
+.css7{
+	font-size: 21px;
+	padding-top: 85px;
+	line-height: 35px;
+}
+.css8{
+	margin:105px auto;
+	clear: left;
+}
+.css9{
+	margin-left: 20px;
+}
+.red{
+	background-color:#FA6B6B;
+	float: left;
+	width: 424px;
+	height: 521px;
+	color:#fff;
+	font-family: "黑体";
+	font-size: 21px;
+	position: relative;
+}
+.white{
+	background-color:#fff;
+	float: left;
+	width: 424px;
+	height: 521px;	
+	position: relative;
+	color:#000;
+	font-family: "黑体";
+	font-size: 21px;
+}
+#link1{
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	top: 265px;
+	left: 130px;
+	padding: 9px 41px;
+	border:1px solid #fff;
+}
+#link2{
+	text-decoration: none;
+	color:#FA6B6B;
+	position: absolute;
+	top: 265px;
+	left: 130px;
+	padding: 9px 41px;
+	border:1px solid #FA6B6B;	
+}
+#bnox8{
+	float: left;
+}
+.contact{
+	height: 359px;
+	width: 1279px;
+	background-color: #222;
+	color: #fff;
+	font-family: "黑体";
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing:1px;
+}
+#input{
+	display: block;
+	margin-top: 25px;
+	margin-left: 380px;
+	float: left;
+	width: 430px;
+	height: 36px;
+	color: #777;
+}
+#submit{
+	display: block;
+	float: left;
+	margin-top: 25px;
+	width: 80px;
+	height: 42px;
+	color: #fff;
+	background-color: #777;
+	border:none;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#back{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	right: 20px;
+}
+.copyright{
+	width: 1179px;
+	height: 29px;
+	background-color: #111;
+	color: #fff;
+	font-family: "黑体";
+	font-size: 12px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
