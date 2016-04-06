@@ -13,19 +13,17 @@ window.onload = function() {
                 }}
             }
         },
-        //中序遍历
-        inOrderTraverse = function(element, callback) {
-            if (element && element.nodeType == 1) {
-                inOrderTraverse(element.children[0], callback)
-                callback(element);
-                inOrderTraverse(element.children[1], callback)
-            }
-        },
         //后序遍历
         postOrderTraverse = function(element, callback) {
             if (element && element.nodeType == 1) {
-                postOrderTraverse(element.children[0], callback);
-                postOrderTraverse(element.children[1], callback);
+                var len = element.children.length,
+                        i;
+                if( len ){
+                    for ( i = 0; i < len; i++) {
+                        (function(){
+                            postOrderTraverse(element.children[i], callback)
+                        })(i)
+                    }}
                 callback(element);
             }
         };
@@ -69,7 +67,6 @@ window.onload = function() {
         };
 
     var preorderBtn = document.getElementById('preorder');
-    var inorderBtn = document.getElementById('inorder');
     var postorderBtn = document.getElementById('postorder');
 
     preorderBtn.addEventListener("click", function() {
@@ -83,21 +80,18 @@ window.onload = function() {
         render(value);
     });
 
-    inorderBtn.addEventListener("click", function() {
-        location.reload();
-        if (eleOrder) {
-            eleOrder = [];
-        }
-        inOrderTraverse(ele, pushToArray);
-        render();
-    });
+
 
     postorderBtn.addEventListener("click", function() {
         if (eleOrder) {
             eleOrder = [];
-        }
+        };
+
+        var search = document.getElementById('search'),
+            value = search.value;
+
         postOrderTraverse(ele, pushToArray);
-        render();
+        render(value);
     })
 
 }
